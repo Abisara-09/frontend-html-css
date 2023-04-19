@@ -1,0 +1,59 @@
+/*Simple selectors*/
+
+/*Tag Selector: we use html tags to select an element*/ 
+
+/*h1{
+          border: 1px solid blue;
+          color:olive;
+          font-size: 40px;     
+}
+p{
+          border: 1px dashed red;
+          color:maroon;
+          font-size: 40px;      
+}*/
+
+/*class Selector :it selects html elements with specific class attribute*/
+/* .class_name{
+          property:value;
+}*/
+
+/*.para{
+          color: royalblue;
+}*/
+/*Id selector: it selects the html element with the specified id */
+/*#id_name{
+          property: value;
+}*/
+
+/*#para-1{
+          color: darkmagenta;
+}*/
+
+/*Universal Selectors : it selects all the html elements in your page*/
+*{
+          text-align: center;
+}
+/*Grouping Selectors: used for grouping different selectorswith same style*/
+.para, #para-1{
+          border: 1px dashed red;
+          color:firebrick;
+          font-size: 40px;     
+}
+.btn {
+          border: 1px solid black;
+          border-radius: 10px;
+          padding: 10px 80px;
+          font-size: 16px;
+
+      }
+
+      #btn-1{
+          background-color: burlywood;
+      }
+      #btn-2{
+          background-color: bisque;
+      }
+      #btn-3{
+          background-color: beige;
+      }

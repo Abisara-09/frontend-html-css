@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form>
+        <h4>General Details</h4>
+        <div>
+             <label for="username">username: </label> <br>
+             <input type="text" name="username" placeholder="Enter a username" value="abi">
+        </div>
+        <div>
+            <label for="fullname">fullname: </label> <br>
+            <input type="text" name="fname">
+        </div>
+        <div>
+            <label for="phonenumber">phonenumber: </label> <br>
+            <input type="number" name="number">
+        </div>
+        <div>
+            <label for="email">email: </label> <br>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="gender">gender: </label> <br>
+           Male: <input type="radio" name="gender"> <br> 
+           Female:  <input type="radio" name="gender"> <br> <br>
+        </div>
+
+        <div>
+            <label for="subjects">subjects: </label> <br>
+           html: <input type="checkbox" name="html"> <br> 
+           css: <input type="checkbox" name="css"> <br> 
+           js:  <input type="checkbox" name="js"> <br> <br>
+        </div>
+
+        <div>
+            <label for="password">password: </label> <br>
+            <input type="number" name="password"> <br> <br>
+            
+        </div>
+        <!--different types of forms-->
+        <div>
+            <input type="date"><br><br>
+            <input type="file"> <br><br>
+            <input type="month"> <br><br>
+            <input type="datetime-local"> <br><br>
+            <input type="datetime"> <br><br>
+            <input type="time"> <br><br>
+            <input type="week"> <br><br>
+            <input type="color"> <br><br>
+            <input type="range"> <br><br>
+        </div>
+
+        <!--droupdown-->
+        <div>
+            <label for="subject">Choose a subject: </label> 
+            <select name="subject" id="sub" >
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="js">js</option>
+            </select>
+            
+        </div>
+
+        <div>
+            <label for="">Address: </label> <br>
+            <textarea name="text" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+</html>
