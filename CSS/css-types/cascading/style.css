@@ -1,0 +1,44 @@
+/* inline css have :1000*/
+
+
+/* id selector : 100 */
+#para-1{
+        color: darkblue;  
+}
+
+
+
+/*class, pseudo-class,attribute selectoe :10 */
+.para{
+          font-size: 25px;
+          color: gold;
+}
+:hover{
+          color: blueviolet;
+          cursor: pointer;
+}
+
+[type="text"]{
+          border: 1px solid purple;
+}
+
+/* tags and pseudo-element selector : 1 */
+input{
+          border: 1px solid brown;
+}
+p{
+          color: red;
+}
+
+section{
+        color: blueviolet;
+}
+::marker{
+          color: royalblue;
+}
+
+/* Universal selectors(*) : no specificity(0) 
+
+*{
+          color: green;
+}*/

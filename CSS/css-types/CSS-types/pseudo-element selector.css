@@ -1,0 +1,19 @@
+/*used to style specified parts of an element
+syntax:
+selector:pseudo-element{}*/
+
+.para-1::first-line{
+          color: crimson;
+}
+
+.para-1::first-letter{
+          color:blue;
+}
+
+.para-1::after{
+          content: "hey there this is present after pseudo element ";
+}
+
+.para-1::before{
+          content: url(free\ icon.png);
+}

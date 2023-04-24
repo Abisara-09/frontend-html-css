@@ -1,0 +1,25 @@
+ /*Combinator selectors*/
+/*1.General Selector*/
+ /*target all the p tags that are siblings of elements which have class-name as 'head'*/
+
+ /*.head~p{
+          color: red;
+        }*/
+
+        /*2.Adjacent siblings selector - target the sibling p tag that comes immediately after h*/
+
+     /* #para + .head{
+          color:cornflowerblue;
+        }*/
+
+        /*3.child selector - targets all the direct children*/
+
+        /*div > p{
+          color:crimson;
+        }*/
+        /*4. Desendent Selector - tsrgets all the(descendant) of children element*/
+
+        div p{
+          color:lime;
+        }
+

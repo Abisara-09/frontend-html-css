@@ -1,0 +1,55 @@
+/*syntax => any selectors(any tags) : pseudo-class*/
+/* :link => it selects all the unvisited links*/
+a:link{
+          color:teal;
+}
+/* visited --> select all the visited links*/
+a:visited{
+          color: brown;
+}
+
+/*:hover --> add styles when you move your cursor over particular element*/
+
+a:hover{
+          color: darkmagenta;
+}
+
+/*active link --> select all the active link*/
+
+a:active{
+          color: magenta;
+}
+
+/*used to select an element that is focus on used with input tags only*/
+input:focus{
+          background-color: blue;
+}
+
+.btn{
+          border: 5px solid green;
+          border-radius: 10px;
+          padding: 10px 80px;
+          width: 20%;
+          font-size: 16px;
+          color: white;
+          background-color: lightskyblue;
+}
+
+.btn:hover{
+          background-color: white;
+          border: 5px solid greenyellow;
+}
+/*:first-child,:last-child,:nth-child()*/
+/*.container p:first-child{
+          color: darkbluee;
+}*/
+/*.container p:last-child{
+          color: darkblue;
+}*/
+/*for odd */
+/*.container p:nth-child(2n+1){
+          color:darkblue;
+}*/
+.container p:nth-child(2n):hover{
+          color:darkblue;
+}
