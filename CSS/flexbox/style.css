@@ -1,0 +1,23 @@
+.container{
+          background-color: lightblue;
+          height: 400px;
+          /*by default the flex directon is row*/
+          display: flex;
+          /*flex-direction: row;
+          flex-wrap: nowrap;*/
+          flex-flow: row wrap;
+          justify-content:center;
+          /*align-items: center;*/
+          align-content: center; 
+          gap: 20px;       
+
+}
+.container .item{
+          width: 20%;
+          background-color:lightcoral;
+          font-size: 16px;
+          color: white;
+          padding: 20px;
+          border: 1px solid black;
+          margin: 2px;
+}

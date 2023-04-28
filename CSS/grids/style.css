@@ -1,0 +1,45 @@
+/*.grid{
+          background-color: black;
+          width: 100%;
+          height: 500px;
+}*/
+
+.container
+{
+          width: 90%;
+          height: 400px;
+          background-color: lightblue;
+          display: grid;
+          /*  1. property --> no of ways to use grid column 
+          1. grid-template-columns - 25% 25% 25% 25%
+          2. grid-template-columns: repeat(no.of cols, width of each cols)
+          3.grid-template-columns:auto auto ---> auto - will defines the cols and width automatically
+          4.grid-template-columns:1fr 1fr 2fr (fr---> by using fraction) or repeat(2,1fr)2fr*/
+         /* grid-template-columns: 1fr 1fr 2fr;*/
+         grid-template-columns:repeat(4,20%); 
+         
+         /* 2. grig row 
+         1-- 1fr 1fr
+         2.20% 50%*/
+        /* grid-template-rows: repeat(3,250px);*/
+         /*repeat(no.of rows, height of each rows)
+         column-gap: 4px;
+         row-gap: 5px;*/
+          /* gap : rowgap columngap*/
+          gap: 10px 12px;
+          /*justify-items: center;*/
+          /*align-items: center;*/
+          /*place-items : align-items justify-items;*/
+         /* place-items: stretch;*/
+          /* justify-content: centre;
+         place-items: centre start;
+         align-content: start;*/
+
+
+}
+
+.container .item{
+          background-color: orangered;
+          color: white;
+          margin: 5px;
+}

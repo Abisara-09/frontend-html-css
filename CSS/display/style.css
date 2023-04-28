@@ -1,0 +1,14 @@
+div{
+          display: inline-block;
+          width: 200px;
+          height:300px;
+}
+span{
+          /* to hide  the element completely use display*/
+          /*1st way*/
+          /*display: none;*/
+
+          /*2nd way hide the element but the content space is visible*/
+          visibility: hidden;
+         
+}
